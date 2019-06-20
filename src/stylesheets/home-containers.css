@@ -1,0 +1,119 @@
+.home-info-container-main {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.home-container-card {
+    z-index: 4;
+    cursor: pointer;
+    position: relative;
+    left: 14%;
+    background: rgba(255, 255, 255, 0.9);
+    width: 38%;
+    padding: 20px 30px 30px;
+    border-top: solid 8px #355D8E;
+    border-radius: 3px;
+    margin: 0 5px 0 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
+    vertical-align: baseline;
+}
+
+.home-container-card>h3 {
+    color: #355e93;
+    font-size: 17.6px;
+}
+.home-container-card>h3:hover {
+    text-decoration: underline;
+}
+.home-container-card>h2 {
+    color: #333333;
+    font-size: 35px;
+    margin: 0 0 10px;
+}
+
+
+.home-container-h2.hover {
+    text-decoration: underline;
+}
+
+.home-container-card div {
+    display: flex;
+    align-items: center;
+}
+
+.home-container-card div span {
+    border: 1px #717171 solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.home-container-facebook:hover{
+    border: 1px #355D8E solid;
+    background-color: #355D8E;
+}
+.home-container-facebook:hover >.feather {
+    fill: #fff;
+}
+.home-container-twitter:hover{
+    border: 1px #355D8E solid;
+    background-color: #355D8E;
+}
+.home-container-twitter:hover >.feather {
+    fill: #fff;
+}
+
+.feather {
+    fill: #717171;
+    stroke: none;
+    height: 30px;
+    width: 30px;
+}
+
+.home-container-card div p {
+    margin: 0 0 0 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #717171;
+}
+
+.home-container-image {
+    z-index: 3;
+    cursor: pointer;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    border: #adadad solid 1px;
+    display: inline-block;
+    width: 60%;
+    height: 470px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.13);
+}
+
+.home-container-image span {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .25s ease-out;
+}
+.home-container-image.hover > span{
+    transform: scale(1.1);
+}
