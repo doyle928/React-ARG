@@ -3,6 +3,7 @@ import React from 'react';
 import { Router, Route } from "react-router-dom";
 import HomeSplash from './home-components/HomeSplash';
 import HomeContainers from "./home-components/HomeContainers";
+import HomeFooter from "./home-components/HomeFooter";
 
 let findDate = (subtract) => {
     let today = new Date();
@@ -73,6 +74,12 @@ const posts = [
     },
     {
         genre: "WEATHER",
+        title: "Freak weather patterns cause damage across the entire US",
+        image: "/stylesheets/images/home/pic-home-2.jpg",
+        date: findDate(8)
+    },
+    {
+        genre: "WEATHER",
         title: "US faces strange weather phenomenon",
         image: "/stylesheets/images/home/pic-home-3.png",
         date: findDate(15)
@@ -89,8 +96,10 @@ class Home extends React.Component {
                 <h2>Explore</h2>
                 <HomeContainers genre={posts[0].genre} title={posts[0].title} image={posts[0].image} date={posts[0].date} />
                 <HomeContainers genre={posts[1].genre} title={posts[1].title} image={posts[1].image} date={posts[1].date} />
-
+                <HomeContainers genre={posts[1].genre} title={posts[2].title} image={posts[2].image} date={posts[2].date} />
+                <button>VIEW MORE</button>
             </div>
+            <HomeFooter />
 
         </div>
     );

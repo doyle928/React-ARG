@@ -1,27 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../../../stylesheets/home-containers.css";
-// import GoogleAuth from "./GoogleAuth";
 
-// class HomeContainers extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.handleMouseHover = this.handleMouseHover.bind(this);
-  //   this.state = {
-  //     isHovering: false,
-  //   };
-  // };
-
-  // handleMouseHover() {
-  //   this.setState(this.toggleHoverState);
-  // }
-
-  // toggleHoverState(state) {
-  //   console.log(state);
-  //   return {
-  //     isHovering: !state.isHovering,
-  //   };
-  // };
 const HomeContainers = (props) => {
   const [hovered, setHovered] = useState(false);
   const toggleHover = () => setHovered(!hovered);
@@ -30,7 +10,6 @@ const HomeContainers = (props) => {
     backgroundImage: `url(${props.image})`
   }
 
-  // render(){
     return (
     <div className="home-info-container-main">
       <div className="home-container-card" onMouseOver={toggleHover} onMouseOut={toggleHover}>
@@ -49,7 +28,7 @@ const HomeContainers = (props) => {
     </div>
 
   );
-    // }
+
 };
 
 export default HomeContainers;

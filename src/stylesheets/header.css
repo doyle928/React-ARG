@@ -12,7 +12,14 @@
 }
 .header-left {
     z-index: 100;
-    padding:10px 0 10px 0;
+    padding:10px 0 10px 15px;
+    display: flex;
+}
+.header-left > img {
+    height: 65px;
+    width: auto;
+    filter: invert(90%);
+    margin: -5px 5px 0 0;
 }
 .header-us-gov{
     text-decoration: none;
@@ -30,7 +37,7 @@
     font-weight:500;
     font-family: 'Oswald', sans-serif;
     line-height: .7em;
-        letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 .header-right {
     z-index: 100;
