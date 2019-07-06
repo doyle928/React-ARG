@@ -2,7 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../stylesheets/header.css";
 import flag from '../stylesheets/images/flag-bw.svg'
-// import GoogleAuth from "./GoogleAuth";
 
 const Header = () => {
   return (
