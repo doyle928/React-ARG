@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../stylesheets/home-footer.css";
-// import GoogleAuth from "./GoogleAuth";
 
 const HomeFooter = () => {
   return (
