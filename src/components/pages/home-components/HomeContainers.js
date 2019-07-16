@@ -16,8 +16,8 @@ const HomeContainers = (props) => {
         <h3>{props.genre}</h3>
         <h2 className={hovered ? 'home-container-h2 hover' : 'home-container-h2'}>{props.title}</h2>
         <div>
-            <span className="home-container-facebook"><i data-feather="facebook"></i></span>
-            <span className="home-container-twitter"><i data-feather="twitter"></i></span>
+            <span className="home-container-facebook"><i className="feather" data-feather="facebook"></i></span>
+            <span className="home-container-twitter"><i className="feather" data-feather="twitter"></i></span>
             <p>{props.date}</p>
         </div>
 

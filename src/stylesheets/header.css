@@ -9,17 +9,20 @@
     position: fixed;
     top: 0;
     left:0;
+    transition: 1s ease-out;
 }
 .header-left {
     z-index: 100;
     padding:10px 0 10px 15px;
     display: flex;
+    cursor: pointer;
 }
 .header-left > img {
     height: 65px;
     width: auto;
     filter: invert(90%);
     margin: -5px 5px 0 0;
+    transition: 1s ease-out;
 }
 .header-us-gov{
     text-decoration: none;
@@ -32,6 +35,7 @@
     /* font-stretch: extra-expanded; */
     text-shadow: 0 0 10px rgba(0,0,0,0.2);
     line-height: .95em;
+    transition: 1s ease-out;
 }
 .header-us-gov > span{
     font-weight:500;
@@ -75,4 +79,48 @@
     font-size: 30px;
     text-shadow: 0 0 10px rgba(0,0,0,0.2);
 
+}
+.header-container-scrolled {
+    background: #1f1f1f;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left:0;
+    transition: 1s ease-out;
+}
+.header-container-scrolled > .header-left > img {
+    height: 47px;
+    width: auto;
+    filter: invert(90%);
+    margin: -5px 5px 0 0;
+    transition: 1s ease-out;
+}
+.header-container-scrolled > .header-left > .header-us-gov {
+    text-decoration: none;
+    font-size: .95em;
+    color: white;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    /* letter-spacing: 1px; */
+    /* font-stretch: extra-expanded; */
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    line-height: .95em;
+    transition: .5s ease-out;
+}
+.header-container-scrolled > .header-right > .header-right-link {
+    padding: 19px 22px 19px 22px;  
+}
+.header-container-scrolled > .header-right > .header-right-link:hover{
+    border-bottom: 3px solid white;
+    padding: 19px 22px 16px 22px;
+}
+
+.hidden {
+    transform: translateY(-60px);
+    transition: .5s ease-out;
 }
