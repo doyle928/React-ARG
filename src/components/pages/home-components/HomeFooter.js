@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../../stylesheets/home-footer.css";
-// import GoogleAuth from "./GoogleAuth";
+
 let liArray = [false, false, false, false, false];
 
 const HomeFooter = () => {

@@ -1,10 +1,6 @@
 import React from "react";
 import { Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import TodoDelete from "./todos/TodoDelete";
-// import TodoEdit from "./todos/TodoEdit";
-// import TodoList from "./todos/TodoList";
-// import TodoShow from "./todos/TodoShow";
 import Header from "./Header";
 import history from "../history";
 
