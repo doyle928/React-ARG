@@ -5,35 +5,38 @@
     display: block;
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     width: 105vw;
     height: 100vh;
     z-index: -1;
 }
-.home-splash-black-container{
+
+.home-splash-black-container {
     background-color: black;
     content: ' ';
     display: block;
     position: absolute;
     left: 0;
-    top:0;
-    width: 105vw;
+    top: 0;
+    width: 100vw;
     height: 100vh;
     opacity: .5;
     z-index: 0;
 }
-.home-splash-main{
+
+.home-splash-main {
     text-align: center;
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     width: 105vw;
     height: 100vh;
     z-index: 3;
 }
-.home-splash-main > h1 {
-    color:white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+.home-splash-main>h1 {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
@@ -41,34 +44,38 @@
     font-size: 5.5rem;
     margin: 0 0 30px;
 }
-.home-splash-main > h1 > span {
+
+.home-splash-main>h1>span {
     display: block;
     font-size: .6em;
     line-height: 1em;
     letter-spacing: 12px;
 }
+
 .home-splash-main-one {
     display: block;
     font-size: .6em;
     line-height: 1em;
     letter-spacing: 12px;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     padding-top: 25vh;
     opacity: 1;
     cursor: default;
 }
-.home-splash-main-two{
+
+.home-splash-main-two {
     font-size: 4em;
-    padding:0;
-    margin:0 0 25px 0;
+    padding: 0;
+    margin: 0 0 25px 0;
     cursor: default;
 }
+
 .home-splash-know-us {
     color: white;
     border: 2px solid white;
     padding: 15px;
     cursor: pointer;
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
-    background-color: rgba(255,255,255,0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
 }
